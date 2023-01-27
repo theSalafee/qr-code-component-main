@@ -2,12 +2,46 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: hsl(212deg, 45%, 89%);
-  font-size: 15px;
-  font-family: "Outfit", sans-serif;
 }
 
-h1 {
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .qr-card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .qr-card .qr-code {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+body .qr-card .qr-text {
+  color: hsl(220deg, 15%, 55%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+body .qr-card .qr-link {
+  color: hsl(218deg, 44%, 22%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+body .qr-card .qr-link:hover {
   color: #e74c3c;
 }
 
