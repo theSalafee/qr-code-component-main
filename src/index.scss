@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
 $red: #e74c3c;
 $white: hsl(0, 0%, 100%);
 $light-gray: hsl(212, 45%, 89%);
@@ -8,6 +10,8 @@ $dark-blue: hsl(218, 44%, 22%);
     padding: 0;
     margin: 0;
     background-color: $light-gray;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
 }
 
 h1 {
